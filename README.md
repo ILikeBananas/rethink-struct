@@ -36,5 +36,14 @@ The JSON must me structurated like this:
 }
 ```
 
+Then:
+```javascript
+const rethink = require('rethinkdb')
+const rethinkStruct = require('rethink-struct')
+const rethinkConn = await rethink.connect()
+
+await rethinkStruct(require('your.json'), conn)
+```
+
 ## Example
 You can find an example in the `example` folder.
