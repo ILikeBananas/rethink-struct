@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Assert that databases, tables, indexes exists on your Rethink server and create it if they don't",
   "main": "src/structurate.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xstoudi/rethink-struct.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
