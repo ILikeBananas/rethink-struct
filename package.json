@@ -1,6 +1,6 @@
 {
   "name": "rethink-struct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assert that databases, tables, indexes exists on your Rethink server and create it if they don't",
   "main": "src/structurate.js",
   "repository": {
