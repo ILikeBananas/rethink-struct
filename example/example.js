@@ -4,7 +4,7 @@
 
   try {
     const conn = await rethink.connect({ hostname: 'localhost' })
-    await rethtruct(require('./sample.json'))
+    await rethtruct(require('./sample.json'), conn)
     console.log('Done')
   } catch (e) {
     console.error(e)
