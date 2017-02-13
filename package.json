@@ -1,0 +1,21 @@
+{
+  "name": "rethink-struct",
+  "version": "1.0.0",
+  "description": "Assert that databases, tables, indexes exists on your Rethink server and create it if they don't",
+  "main": "src/structurate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rethink",
+    "rethinkdb",
+    "structure",
+    "assert",
+    "ensure"
+  ],
+  "author": "Xavier Stouder <xavier@stouder.io>",
+  "license": "MIT",
+  "dependencies": {
+    "rethinkdb": "^2.3.3"
+  }
+}

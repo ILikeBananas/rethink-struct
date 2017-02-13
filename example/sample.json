@@ -1,0 +1,26 @@
+{
+    "databases": [
+        {
+            "name": "mygame",
+            "tables": [
+                {
+                    "name": "users",
+                    "indexes": ["username"]
+                },
+                {
+                    "name": "scores",
+                    "indexes": ["value"]
+                }
+            ]
+        },
+        {
+            "name": "films",
+            "tables": [
+                {
+                    "name": "film",
+                    "indexes": ["name", "year"]
+                }
+            ]
+        }
+    ]
+}
