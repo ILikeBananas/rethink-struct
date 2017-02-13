@@ -16,7 +16,7 @@ The JSON must me structurated like this:
   "databases": [
     {
       "name": "database_name",
-      "tables: [
+      "tables": [
         {
           "name": "table_name",
           "indexes": ["field_to_index", "second_field_to_index"]
