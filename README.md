@@ -22,14 +22,14 @@ The JSON must me structurated like this:
           "indexes": ["field_to_index", "second_field_to_index"]
         },
         {
-          "name": "another_table_name
+          "name": "another_table_name"
         }
       ]
     },
     {
       "name": "another_database_name",
       "tables": [
-        ...
+        "a_table"
       ]
     }
   ]
