@@ -10,7 +10,7 @@ Assert that databases, tables, indexes exists on your Rethink server and create 
 
 ## How to assert ?
 Assertion is made by reading a JSON file.
-The JSON must me structurated like this:
+The JSON must be structurated like this:
 ```json
 {
   "databases": [
